@@ -29,8 +29,8 @@ sed -i '$a src-git haiibo https://github.com/haiibo/openwrt-packages' feeds.conf
 #sed -i 's/KERNEL_TESTING_PATCHVER:=5.4/KERNEL_TESTING_PATCHVER:=4.19/g' ./target/linux/x86/Makefile  #修改内核版本
 
 #添加自定义插件链接（自己想要什么就github里面搜索然后添加）
-# git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/lean/luci-theme-edge  #主题-edge-动态登陆界面
-# git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom  #透明主题
+git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/lean/luci-theme-edge  #主题-edge-动态登陆界面
+git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom  #透明主题
 # git clone https://github.com/jerrykuku/lua-maxminddb     #git lua-maxminddb 依赖
 # git clone https://github.com/jerrykuku/luci-app-vssr
 # git clone https://github.com/xiaorouji/openwrt-passwall2  #passwall出国软件
